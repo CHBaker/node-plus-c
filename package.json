@@ -1,0 +1,14 @@
+{
+    "name": "node-plus-c",
+    "version": "0.0.1",
+    "description": "A node server that can execute C or C++ code.",
+    "author": "CHBaker",
+    "scripts": {
+        "start": "boilerplate-server",
+        "console": "boilerplate-console"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.3"
+    }
+}
