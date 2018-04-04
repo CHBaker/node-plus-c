@@ -3,11 +3,86 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>title</title>
-    <link rel="stylesheet" type="text/css" src="./index.css">
+    <title>NodePlusC</title>
 </head>
 
 <body>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100i');
+
+        html,
+        body {
+            width: 100%;
+            height: 98%;
+        }
+
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+            color: white;
+            background: rgb(45, 3, 32);
+            background: linear-gradient(rgba(45, 3, 32, 1) 49%, #99D5C9 100%);
+            margin: 0;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .sub-title {
+            text-align: center;
+            font-size: 32px;
+        }
+
+        .result {
+            color: #fbb500;
+        }
+
+        .triangle-up {
+            width: 0;
+            height: 0;
+            border-left: 300px solid transparent;
+            border-right: 300px solid transparent;
+            border-bottom: 500px solid #6C969D;
+            position: absolute;
+            z-index: -1;
+            left: 32.75%;
+            top: 25%;
+        }
+
+        .background-triangle {
+            width: 0;
+            height: 0;
+            border-left: 300px solid transparent;
+            border-right: 300px solid transparent;
+            border-bottom: 490px solid #fbb500;
+            position: absolute;
+            z-index: -2;
+            left: 32.75%;
+            top: 231px;
+        }
+
+        .eye {
+            box-sizing: content-box;
+            width: 250px;
+            padding-top: 250px;
+            border-radius: 100% 0;
+            background-image: radial-gradient(circle, #000 8%, #a50 8%, #fdb700 18%, #2d0321 35%, #fff 35%);
+            transform: rotate(45deg);
+            position: absolute;
+            left: 42%;
+            top: 44%;
+        }
+
+        .illuminati {
+            font-size: 45px;
+            text-align: center;
+            padding-top: 510px;
+        }
+    </style>
+
     <div class="title">
         <h1>
             C CODE WAS EXECUTED!
@@ -15,8 +90,14 @@
     </div>
     <div class="sub-title">
         <h2>
-            it printed: {{ result }}
+            it printed: <span class="result">{{ result }}</span>
         </h2>
+    </div>
+    <div class="triangle-up"></div>
+    <div class="background-triangle"></div>
+    <div class="eye"></div>
+    <div class="div illuminati">
+        Must be illuminati...
     </div>
 </body>
 
