@@ -3,12 +3,15 @@
     "version": "0.0.1",
     "description": "A node server that can execute C or C++ code.",
     "author": "CHBaker",
+    "gypfile": true,
     "scripts": {
         "start": "boilerplate-server",
         "console": "boilerplate-console"
     },
     "dependencies": {
         "body-parser": "^1.18.2",
-        "express": "^4.16.3"
+        "express": "^4.16.3",
+        "hbs": "^4.0.1",
+        "node-addon-api": "^1.2.0"
     }
 }
