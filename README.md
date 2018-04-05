@@ -14,3 +14,8 @@ The module is inside the 'c' folder, the binding.gyp file tells the command `$ g
 where it is and then it builds the module into a Node Addon.
 
 Then, in server.js, we import it and call the function just like any other JS module.
+
+
+## Sources
+
+This project was made following the [node docs](https://nodejs.org/api/addons.html#addons_hello_world)
