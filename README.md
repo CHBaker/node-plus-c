@@ -4,7 +4,7 @@ Why is this useful? Many reasons, try executing auth on a separate thread.
 
 ## RUN
 1. `$ git clone https://github.com/CHBaker/node-plus-c.git`
-2. `$ cd src/app'
+2. `$ cd src/app`
 3. `$ node server.js`
 4. open [http://localhost:5050](http://localhost:5050)
 
